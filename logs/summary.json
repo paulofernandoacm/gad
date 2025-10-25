@@ -1,0 +1,67 @@
+{
+  "total_events": 11,
+  "actions": [
+    {
+      "action": "start",
+      "count": 1,
+      "latency_avg_s": null
+    },
+    {
+      "action": "parsed",
+      "count": 1,
+      "latency_avg_s": null
+    },
+    {
+      "action": "choose_chain",
+      "count": 1,
+      "latency_avg_s": null
+    },
+    {
+      "action": "token_generated",
+      "count": 1,
+      "latency_avg_s": null
+    },
+    {
+      "action": "basic_checks",
+      "count": 1,
+      "latency_avg_s": null
+    },
+    {
+      "action": "signature_check",
+      "count": 1,
+      "latency_avg_s": null
+    },
+    {
+      "action": "aisand_final",
+      "count": 1,
+      "latency_avg_s": null
+    },
+    {
+      "action": "aisand_result",
+      "count": 1,
+      "latency_avg_s": null
+    },
+    {
+      "action": "call_chain",
+      "count": 1,
+      "latency_avg_s": null
+    },
+    {
+      "action": "chain_result",
+      "count": 1,
+      "latency_avg_s": 0.0005218982696533203
+    },
+    {
+      "action": "end",
+      "count": 1,
+      "latency_avg_s": 0.07286524772644043
+    }
+  ],
+  "top_origins": [
+    [
+      "user:paulo",
+      4
+    ]
+  ],
+  "aisand_blocks_by_origin": []
+}
