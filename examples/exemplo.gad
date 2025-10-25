@@ -1,0 +1,6 @@
+use chain.python("detect") as vision
+
+fn interceptar(imagem):
+    let token = GAD.generate(sign_with="GAD")
+    let alvo = vision.detect(imagem, token=token)
+    return alvo
